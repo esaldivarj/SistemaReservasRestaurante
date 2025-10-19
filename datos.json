@@ -1,0 +1,32 @@
+{
+  "mesas": [
+    {
+      "numero": "1",
+      "capacidad": 4,
+      "estado": "disponible"
+    },
+    {
+      "numero": "2",
+      "capacidad": 2,
+      "estado": "disponible"
+    },
+    {
+      "numero": "3",
+      "capacidad": 6,
+      "estado": "ocupada"
+    }
+  ],
+  "horarios": {
+    "hora_apertura": "10:00",
+    "hora_cierre": "23:00",
+    "dias_operacion": [
+      "Lunes",
+      "Martes",
+      "Mi\u00e9rcoles",
+      "Jueves",
+      "Viernes",
+      "S\u00e1bado"
+    ]
+  },
+  "ocupacion": []
+}
