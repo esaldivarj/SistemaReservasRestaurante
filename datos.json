@@ -3,7 +3,7 @@
     {
       "numero": "1",
       "capacidad": 4,
-      "estado": "disponible"
+      "estado": "ocupada"
     },
     {
       "numero": "2",
@@ -17,16 +17,9 @@
     }
   ],
   "horarios": {
-    "hora_apertura": "10:00",
-    "hora_cierre": "23:00",
-    "dias_operacion": [
-      "Lunes",
-      "Martes",
-      "Mi\u00e9rcoles",
-      "Jueves",
-      "Viernes",
-      "S\u00e1bado"
-    ]
+    "hora_apertura": "",
+    "hora_cierre": "",
+    "dias_operacion": []
   },
   "ocupacion": []
 }

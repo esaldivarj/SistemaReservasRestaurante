@@ -1,6 +1,7 @@
 import mesas
 import horarios
 import disponibilidad
+import reportes
 
 def mostrar_menu_principal():
     """Muestra el menú principal del sistema"""
@@ -11,7 +12,8 @@ def mostrar_menu_principal():
     print("\n1. Gestión de Mesas")
     print("2. Gestión de Horarios")
     print("3. Gestión de Disponibilidad")
-    print("4. Salir")
+    print("4. Reportes y Estadísticas")
+    print("5. Salir")
     print("-"*50)
 
 def main():
@@ -20,7 +22,7 @@ def main():
     
     while True:
         mostrar_menu_principal()
-        opcion = input("\nSelecciona una opción (1-4): ")
+        opcion = input("\nSelecciona una opción (1-5): ")
         
         if opcion == "1":
             mesas.menu_mesas()
@@ -29,11 +31,12 @@ def main():
         elif opcion == "3":
             disponibilidad.menu_disponibilidad()
         elif opcion == "4":
+            reportes.menu_reportes()
+        elif opcion == "5":
             print("\n¡Gracias por usar el sistema! Hasta pronto.")
             break
         else:
-            print("\n✗ Opción inválida. Por favor selecciona un número del 1 al 4.")
+            print("\n✗ Opción inválida. Por favor selecciona un número del 1 al 5.")
 
-# Este código se ejecuta cuando corremos el archivo
 if __name__ == "__main__":
     main()
